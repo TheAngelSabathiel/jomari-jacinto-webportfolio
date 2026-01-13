@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lexend Deca";
+}
+
+#outer1, #tool {
+
+		background:
+	linear-gradient(
+		rgba(3, 6, 23, 0.90), 
+		rgba(3, 6, 23, 0.90)
+),
+
+	url("/images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/*Navbar start*/
+#navbar, #navbarSupportedContent .navbar-toggler {
+	background-color: rgba(3, 6, 23, 1) !important;
+	height: 50px;
+	font-family: "Lexend Deca";
+}
+
+#about-me {
+
+}
+
+
+
+.first-text {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #FFFFFF;
+}
+
+.second-text {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+ 	font-weight: 600;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #EAB308;
+}
+
+#navbar a {
+	font-family: "Lexend Deca", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 600; 
+ 	font-style: normal;
+	vertical-align: bottom;
+	color: #9CA3AF;
+}
+
+#navbar button {
+	font-family: "Lexend Deca";
+	color: #9CA3AF;
+	border: 1px solid #9CA3AF;
+}
+
+#navbar input {
+	font-family: "Lexend Deca";
+	color: #9CA3AF;
+	border: 1px solid #026D81;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse.show {
+    background-color: rgba(3, 6, 23, 1);
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    border: 1px solid #EAB308;
+  }
+}
+
+/*Navbar end*/
+
+/*Landing start*/
+
+#landing {
+	font-family: "Lexend Deca";
+	/*background-color: rgba(17, 24, 40, 1);*/
+}
+
+#landing #greetings {
+	font-family: "Lexend Deca";
+	color: #EAB308;
+
+}
+
+#landing #name {
+	color: #F3F4F6;
+
+}
+
+#landing #tagline {
+	color: #F3F4F6;
+}
+
+#landing #subtitle {
+	color: #6B7280;
+}
+
+#landing img {
+	height: 75%;
+	width: auto;
+	border-radius: 200px;
+
+}
+
+#landing button {
+  padding: 5px 20px;
+  background-color: #EAB308;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+
+}
+
+#landing #gcash {
+  padding: 5px 20px;
+  background-color: #EAB308;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+
+}
+
+
+/*Landing end*/
+
+/*My projects start*/
+
+#projects {
+	background-color: rgba(3, 6, 23, 1);
+}
+
+#projects h5 {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #EAB308;	
+}
+
+#projects p {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #FFFFFF;
+}
+
+.project-card {
+	margin-right: 0.1rem;
+	margin-left: 0.1rem;
+}
+
+.project-card div {
+	margin-top: 2rem;
+}
+
+.project-card img {
+	border-radius: 10px;
+}
+
+/*My projects end*/
+
+/*Tools Start*/
+/*#tool {
+	background-color: rgba(17, 24, 40, 1);
+}*/
+
+#tool h3 {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #FFFFFF;
+}
+
+#tool img {
+	height: 150px;
+	width: auto;
+	border-radius: 10px;
+}
+
+/*Tools End*/
+
+/*Contact Start*/
+
+#contact {
+	background-color: rgba(3, 6, 23, 1);
+}
+
+#contact label {
+	font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+	vertical-align: bottom;
+	color: #EAB308;
+}
+
+#contact iframe {
+	width: 100%;
+	border-radius: 20px;
+}
+
+#contact img {
+	height: 35px;
+	width: 35px;
+	border-radius: 10px;
+}
+
+#contact form {
+	width: 100%;
+}
+
+#form-button {
+  padding: 5px 20px;
+  background-color: #EAB308;
+  font-size: 20px;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+	background-color: rgba(3, 6, 23, 0.75) !important;
+}
+
+footer span {
+	font-size: 1rem;
+}
+/*Contact End*/
