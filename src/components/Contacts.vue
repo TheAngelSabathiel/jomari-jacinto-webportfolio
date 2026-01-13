@@ -52,7 +52,7 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
-const { Notyf } from "notyf";
+import { Notyf } from "notyf";
 import 'notyf/notyf.min.css';
 const WEB3FORMS_ACCESS_KEY = "2506f46f-8977-412f-ae17-26810779e3cd";
 const name = ref("")
