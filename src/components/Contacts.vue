@@ -38,7 +38,7 @@
 										<div class="col-2 col-lg-1 contact-icon"><a href="https://github.com/TheAngelSabathiel"><img src="/images/github.png" class="img-fluid" alt="GitHub icon"></a></div>
 										<div class="col-2 col-lg-1 contact-icon"><a href="https://https://www.linkedin.com/in/jomarijacinto/"><img src="/images/linkedin.png" class="img-fluid" alt="LinkedIn icon"></a></div>
 										<div class="col-2 col-lg-1"><a href="https://gitlab.com/jomari.angel.jacinto-group/jomari.angel.jacinto-project"><img src="/images/gitlab.png" class="img-fluid" alt="GitLab icon"></a></div>
-										<div class="col text-end"><button type="button" class="mb-3 ms-auto" id="form-button" :disabled="isLoading">{{ isLoading ? "Sending . . ." : "Submit"}}</button></div>
+										<div class="col text-end"><button type="submit" class="mb-3 ms-auto" id="form-button" :disabled="isLoading">{{ isLoading ? "Sending . . ." : "Submit"}}</button></div>
 										<div class="d-flex justify-content-end mt-2">
                                 			<div ref="recaptchaContainer"></div>
                             			</div>
