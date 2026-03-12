@@ -144,13 +144,14 @@
 	background-color: rgba(3, 6, 23, 1);
 }
 
-#projects h5 {
+#projects a {
 	font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 	vertical-align: bottom;
 	color: #EAB308;	
+	text-decoration: none;
 }
 
 #projects p {

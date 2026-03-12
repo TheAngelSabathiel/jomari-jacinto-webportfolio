@@ -3,7 +3,7 @@
 						<div class="project-card flex-fill" :id="project.id">
 							<img :src="project.image" class="card-img-top img-fluid" alt="E-commerce API Documentation Image">
 							<div>
-								<h5>{{project.title}}</h5>
+								<a :href="project.link">{{project.title}}</a>
 								<p>{{project.description}}</p>
 							</div>
 						</div>

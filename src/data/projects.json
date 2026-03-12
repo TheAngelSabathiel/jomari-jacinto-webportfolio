@@ -37,20 +37,23 @@
     },
     {  
         "id": "capstone-1",
-        "title": "Short Courses Capstone",
-        "description": "Placeholder for your Short courses capstone project.",
-        "image": "/images/capstone-1.png"
+        "title": "Capstone 1: Web Portfolio",
+        "description": "Personal portfolio",
+        "image": "/images/capstone-1.png",
+        "link": "jomari-jacinto-webportfolio.vercel.app"
     },
     {  
         "id": "capstone-2",
-        "title": "Short Courses Capstone",
-        "description": "Placeholder for your Short courses capstone project.",
-        "image": "/images/capstone-2.jpg"
+        "title": "Capstone 2: Theater Page",
+        "description": "Theater Page E-commerce App",
+        "image": "/images/capstone-2.png",
+        "link": "https://act-avenue-sample-homepage.vercel.app/"
     },
     {  
         "id": "capstone-3",
-        "title": "Short Courses Capstone",
-        "description": "Placeholder for your Short courses capstone project.",
-        "image": "/images/capstone-3.png"
+        "title": "Capstone 3: Fitness App",
+        "description": "Simple Fitness App for recording data.",
+        "image": "/images/capstone-3.png",
+        "link": "https://fitness-app-lime-three.vercel.app/"
     }
 ]
